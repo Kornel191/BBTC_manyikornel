@@ -1,0 +1,58 @@
+.FizetesCard {
+    background-color: #e3f2fd;
+    /* világoskék */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.FizetesCard:hover {
+    transform: translateX(3px);
+}
+
+.FizetesCard button {
+    font-size: 0.85rem;
+    padding: 4px 8px;
+}
+
+.FizetesCard .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e3a8a;
+}
+
+.FizetesCard .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .FizetesCard {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .FizetesCard .card-title {
+        font-size: 1.1rem;
+    }
+
+    .FizetesCard .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+.FizetesCard button {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+}
+
+.FizetesCard .card-title {
+    font-size: 1.1rem;
+}
+
+.FizetesCard .card-text {
+    font-size: 0.9rem;
+}
